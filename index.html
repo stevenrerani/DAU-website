@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8G0DWEJ10J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8G0DWEJ10J');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WS8MDWQX');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Delivering Aon United</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+    :root {
+      --red:    #eb0017;
+      --dark:   #1a1a1a;
+      --grey-bg: #f2f2f2;
+      --mid-grey: #e4e4e4;
+      --footer-bg: #2d2d2d;
+      --text:   #333333;
+      --muted:  #666666;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.65;
+      margin: 0;
+      padding: 0;
+    }
+
+    a { color: var(--red); }
+    a:hover { color: #b8000f; }
+
+    /* ─── HERO ─────────────────────────────────────────── */
+    #hero {
+      display: flex;
+      align-items: stretch;
+      background: #fff;
+      min-height: 310px;
+    }
+
+    .hero-left {
+      flex: 0 0 52%;
+      padding: 40px 50px 40px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-logo-placeholder {
+      width: 110px;
+      height: 38px;
+      background: #d8d8d8;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      margin-bottom: 28px;
+    }
+
+    .hero-headline {
+      font-size: 2.1rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--dark);
+      margin: 0;
+    }
+
+    .hero-headline .dau-label {
+      color: var(--dark);
+    }
+
+    .hero-right {
+      flex: 0 0 48%;
+      background: #c8cdd0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 310px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .img-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #888;
+      font-size: 13px;
+    }
+
+    .img-placeholder svg {
+      opacity: 0.5;
+    }
+
+    /* ─── INTRO ─────────────────────────────────────────── */
+    #intro {
+      background: #fff;
+      padding: 42px 0 36px;
+      border-top: 1px solid #e8e8e8;
+    }
+
+    #intro p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    #intro p:last-child { margin-bottom: 0; }
+
+    /* ─── MAIN CONTENT ──────────────────────────────────── */
+    #main-content {
+      background: var(--grey-bg);
+      padding: 52px 0 60px;
+    }
+
+    /* Left column – benefits & steps */
+    .benefits-col {
+      padding-right: 36px;
+    }
+
+    .benefits-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .speedometer-wrap {
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .benefits-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.35;
+    }
+
+    .benefit-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .benefit-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 13px 0;
+      border-bottom: 1px solid #d8d8d8;
+      font-size: 0.91rem;
+      color: var(--text);
+    }
+
+    .benefit-list li:first-child { border-top: 1px solid #d8d8d8; }
+
+    .chevron-wrap {
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* Steps */
+    .steps-section {
+      margin-top: 32px;
+    }
+
+    .step-item {
+      margin-bottom: 14px;
+    }
+
+    .step-label {
+      color: var(--red);
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 2px;
+    }
+
+    .step-desc {
+      font-size: 0.91rem;
+      color: var(--text);
+    }
+
+    /* Right column – form */
+    .form-col {
+      padding-left: 8px;
+    }
+
+    .form-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 32px 28px 28px;
+    }
+
+    .form-card h3 {
+      color: var(--red);
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    .form-section-label {
+      display: block;
+      font-weight: 700;
+      font-size: 0.82rem;
+      color: #444;
+      letter-spacing: 0.3px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+
+    .form-card .form-control {
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 0.88rem;
+      padding: 9px 12px;
+      color: #555;
+      height: auto;
+      margin-bottom: 11px;
+      background-color: #fff;
+    }
+
+    .form-card .form-control::placeholder {
+      color: #aaa;
+    }
+
+    .form-card .form-control:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 0 2px rgba(235, 0, 23, 0.12);
+      outline: none;
+    }
+
+    .form-card select.form-control {
+      appearance: auto;
+      color: #555;
+    }
+
+    .form-card select.form-control option:first-child {
+      color: #aaa;
+    }
+
+    .help-block {
+      display: none;
+      color: firebrick;
+      font-size: 0.78rem;
+      margin-top: -7px;
+      margin-bottom: 9px;
+    }
+
+    .btn-submit {
+      background: var(--red);
+      color: #fff;
+      border: none;
+      padding: 10px 28px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-top: 6px;
+      letter-spacing: 0.2px;
+    }
+
+    .btn-submit:hover {
+      background: #c8001a;
+    }
+
+    #div-success, #div-error { display: none; }
+
+    /* ─── QUERIES ───────────────────────────────────────── */
+    #queries {
+      background: var(--mid-grey);
+      padding: 44px 0;
+    }
+
+    #queries strong {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    #queries p {
+      font-size: 0.92rem;
+      color: #333;
+      margin: 0;
+    }
+
+    /* ─── TERMS ─────────────────────────────────────────── */
+    #terms {
+      background: #fff;
+      padding: 42px 0;
+    }
+
+    #terms h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 6px;
+    }
+
+    #terms p {
+      font-size: 0.83rem;
+      color: #555;
+      margin-bottom: 6px;
+    }
+
+    /* ─── FOOTER ────────────────────────────────────────── */
+    #footer {
+      background: var(--footer-bg);
+      padding: 28px 0 20px;
+    }
+
+    .footer-logo-placeholder {
+      width: 90px;
+      height: 32px;
+      background: #555;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 10px;
+      letter-spacing: 0.5px;
+      margin-bottom: 18px;
+    }
+
+    .footer-links {
+      font-size: 0.78rem;
+      color: #bbb;
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #bbb;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .footer-legal {
+      font-size: 0.76rem;
+      color: #999;
+    }
+
+    /* ─── RESPONSIVE ────────────────────────────────────── */
+    @media (max-width: 767px) {
+      #hero {
+        flex-direction: column;
+      }
+      .hero-left {
+        flex: none;
+        width: 100%;
+        padding: 30px 24px;
+      }
+      .hero-right {
+        flex: none;
+        width: 100%;
+        min-height: 200px;
+      }
+      .hero-headline {
+        font-size: 1.6rem;
+      }
+      .benefits-col {
+        padding-right: 15px;
+        margin-bottom: 32px;
+      }
+      .form-col {
+        padding-left: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS8MDWQX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- ═══════════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════════ -->
+<section id="hero">
+
+  <div class="hero-left">
+    <div class="hero-logo-placeholder">Logo</div>
+    <h1 class="hero-headline">
+      <span class="dau-label">DAU:</span> Driving stronger<br>
+      outcomes through<br>
+      Aon Client Leadership
+    </h1>
+  </div>
+
+  <div class="hero-right">
+    <div class="img-placeholder">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="44" height="44" rx="4" stroke="#888" stroke-width="2"/>
+        <circle cx="16" cy="18" r="5" stroke="#888" stroke-width="2"/>
+        <path d="M2 34 L14 24 L22 32 L30 22 L46 36" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Hero Image Placeholder
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     INTRO TEXT
+════════════════════════════════════════════════════════ -->
+<section id="intro">
+  <div class="container">
+    <p>As we deepen our focus on client‑led growth, enabling colleagues to create more value by applying the objectives of Aon Client Leadership—understanding client priorities, broadening strategic conversations, and collaborating across Aon to deliver stronger outcomes.</p>
+    <p>Colleagues will be rewarded for referring opportunities throughout <strong>Risk Capital</strong> and <strong>Human Capital</strong> Solutions, driving growth through meaningful client value delivery. By collaborating and recording eligible referrals on our DAU Portal or Aon Connect, you can earn incentives and prizes when introductions lead to new client business.</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     MAIN CONTENT — Benefits (left) + Form (right)
+════════════════════════════════════════════════════════ -->
+<section id="main-content">
+  <div class="container">
+    <div class="row">
+
+      <!-- ── LEFT: Benefits & Steps ── -->
+      <div class="col-md-5 benefits-col">
+
+        <div class="benefits-header">
+          <div class="speedometer-wrap">
+            <!-- Speedometer SVG icon -->
+            <svg width="46" height="36" viewBox="0 0 46 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 32 A19 19 0 0 1 42 32" stroke="#eb0017" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <path d="M23 32 L30 14" stroke="#eb0017" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="23" cy="32" r="2.8" fill="#eb0017"/>
+              <path d="M8 28 L5 30" stroke="#eb0017" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M38 28 L41 30" stroke="#eb0017" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M23 13 L23 10" stroke="#eb0017" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="benefits-title">A successful internal referral<br>can earn you…</div>
+        </div>
+
+        <ul class="benefit-list">
+          <li>
+            <span class="chevron-wrap">
+              <!-- Double chevron SVG -->
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="2,2 10,7 2,12" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="2,10 10,15 2,20" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div><strong>R1 000 per sale</strong> across all Solution Lines where the annual revenue to Aon is less than R50 000 per annum.</div>
+          </li>
+          <li>
+            <span class="chevron-wrap">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="2,2 10,7 2,12" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="2,10 10,15 2,20" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div><strong>10% of the revenue</strong> (up to a maximum of <strong>R25 000</strong>) across all Solution Lines where the annual revenue to Aon is R50 000 or more per annum.</div>
+          </li>
+          <li>
+            <span class="chevron-wrap">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="2,2 10,7 2,12" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="2,10 10,15 2,20" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>A quarterly award of <strong>10 000 Aon Stars</strong> for the colleague who achieved the highest number of sales.</div>
+          </li>
+          <li>
+            <span class="chevron-wrap">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="2,2 10,7 2,12" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="2,10 10,15 2,20" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>An annual award of <strong>100 000 Aon Stars</strong> for the colleague who achieved the highest number of sales for the year.</div>
+          </li>
+          <li>
+            <span class="chevron-wrap">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="2,2 10,7 2,12" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="2,10 10,15 2,20" stroke="#eb0017" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>The winning team for the specific quarter will enjoy a <strong>team prize to the value of 50 000</strong> at the end of the quarter.</div>
+          </li>
+        </ul>
+
+        <div class="steps-section">
+          <div class="step-item">
+            <div class="step-label">Step 1</div>
+            <div class="step-desc">Give us the details of your sales lead.</div>
+          </div>
+          <div class="step-item">
+            <div class="step-label">Step 2</div>
+            <div class="step-desc">Tell us how you know this prospect.</div>
+          </div>
+          <div class="step-item">
+            <div class="step-label">Step 3</div>
+            <div class="step-desc">Click submit to send through your opportunity.</div>
+          </div>
+        </div>
+
+      </div><!-- /benefits-col -->
+
+
+      <!-- ── RIGHT: Form ── -->
+      <div class="col-md-7 form-col">
+        <div class="form-card">
+
+          <h3>Submit a Quote</h3>
+
+          <form id="regForm" action="https://cloud.affinityinsurance.aon.co.za/dau_internal_referral_process">
+
+            <div class="mb-1">
+              <input type="text" class="form-control" id="yourName" placeholder="Your Name">
+              <span class="help-block">This field is required</span>
+            </div>
+
+            <span class="form-section-label">Prospect Details</span>
+
+            <div class="mb-1">
+              <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+              <span class="help-block">This field is required</span>
+            </div>
+
+            <div class="mb-1">
+              <input type="tel" class="form-control" id="cellNumber" placeholder="Mobile">
+              <span class="help-block">Please enter a valid 10-digit number (must not include spaces or special characters)</span>
+            </div>
+
+            <div class="mb-1">
+              <input type="email" class="form-control" id="emailAddress" placeholder="Client Email">
+              <span class="help-block">Please enter a valid email address</span>
+            </div>
+
+            <div class="mb-1">
+              <select id="howKnow" class="form-control">
+                <option selected="">How do you know this prospect ?</option>
+                <option value="Existing Client">Existing Client</option>
+                <option value="Referral">Referral</option>
+                <option value="Friend">Friend</option>
+                <option value="Family">Family</option>
+                <option value="Other">Other</option>
+              </select>
+              <span class="help-block">Please choose a value</span>
+            </div>
+
+            <span class="form-section-label">Opportunity Details</span>
+
+            <div class="mb-1">
+              <select id="opportunityType" class="form-control">
+                <option selected="">Opportunity Type</option>
+                <option value="New Business">New Business</option>
+                <option value="Cross Sell">Cross Sell</option>
+              </select>
+              <span class="help-block">Please choose a value</span>
+            </div>
+
+            <div class="mb-1">
+              <select id="insuranceType" class="form-control">
+                <option selected="">Type of Insurance Required</option>
+                <option value="Artinsure">Artinsure</option>
+                <option value="Aviation">Aviation</option>
+                <option value="Broker_Intermediary_Professional_Indemnity">Broker/ Intermediary Professional Indemnity</option>
+                <option value="Classic_Cars">Classic Cars</option>
+                <option value="Commercial">Commercial</option>
+                <option value="Construction_Engineering">Construction &amp; Engineering</option>
+                <option value="Corporate_Tenders">Corporate Tenders</option>
+                <option value="Cyber">Cyber</option>
+                <option value="Directors_Officers_Liability">Directors &amp; Officers Liability</option>
+                <option value="Executive_Cars">Executive Cars</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Household_Motor">Household &amp; Motor</option>
+                <option value="Marine">Marine</option>
+                <option value="Mining">Mining</option>
+                <option value="Medical_Gap_Cover">Medical Gap Cover</option>
+                <option value="Medical_Malpractice">Medical Malpractice</option>
+                <option value="Motor_Only">Motor Only</option>
+                <option value="Municipal_Tender">Municipal Tenders</option>
+                <option value="Private_Broking">Private Broking</option>
+                <option value="Professional_Indemnity">Professional Indemnity</option>
+                <option value="Property_Real_Estate">Property &amp; Real Estate</option>
+                <option value="Renewable_Energy">Renewable Energy</option>
+                <option value="Retirement_Funding">Retirement Funding</option>
+                <option value="SRE">Sport, Recreation &amp; Entertainment</option>
+                <option value="Thatch">Thatch</option>
+                <option value="Trade_Credit">Trade Credit</option>
+              </select>
+              <span class="help-block">Please choose a value</span>
+            </div>
+
+            <div class="mb-1">
+              <input type="text" class="form-control" id="companyName" placeholder="Company Name, if Unknown please use Client Name">
+              <span class="help-block">Please provide a value</span>
+            </div>
+
+            <div class="mb-1">
+              <select id="region" class="form-control">
+                <option selected="">Region</option>
+                <option value="Johannesburg">Johannesburg</option>
+                <option value="Pretoria">Pretoria</option>
+                <option value="Polokwane">Polokwane</option>
+                <option value="Durban">Durban</option>
+                <option value="NEWCASTLE">New Castle</option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="George">George</option>
+                <option value="Bloemfontein">Bloemfontein</option>
+                <option value="Mahikeng">Mahikeng</option>
+                <option value="Nelspruit">Nelspruit</option>
+                <option value="East London">East London</option>
+                <option value="Gqeberha">Gqeberha</option>
+                <option value="MAKGULONG NORTH WEST">Makgulong North West</option>
+                <option value="PHALABORWA">Phalaborwa</option>
+                <option value="PIETERMARITZBURG">Pietermaritzburg</option>
+                <option value="PORT ELIZABETH">Port Elizabeth</option>
+                <option value="TONGAAT">Tongaat</option>
+                <option value="SHELL CAPE TOWN">Shell Cape Town</option>
+              </select>
+              <span class="help-block">Please choose a value</span>
+            </div>
+
+            <div class="mb-1">
+              <input type="text" class="form-control" id="notes" placeholder="Notes">
+            </div>
+
+            <!-- Submit messages -->
+            <div class="alert alert-success" id="div-success">
+              <strong>Thank you.</strong><br>
+              Your information has been successfully submitted.
+            </div>
+            <div class="alert alert-warning" id="div-error">
+              <strong>Oops - something went wrong!</strong><br>
+              Please try to resubmit the form or email us at <a href="mailto:referrals@aon.co.za">referrals@aon.co.za</a>
+            </div>
+
+            <button type="submit" id="regBut" class="btn-submit">Submit</button>
+
+          </form>
+        </div>
+      </div><!-- /form-col -->
+
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     QUERIES
+════════════════════════════════════════════════════════ -->
+<section id="queries">
+  <div class="container">
+    <p>
+      <strong>Queries?</strong>
+      If you have any queries, please refer to the <a href="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/b3dbafec-6855-4d95-b8f7-f9217cd9e558.pdf">Frequently Asked Questions</a>, or email them to <a href="mailto:referrals@aon.co.za?subject=Delivering_Aon_United_Query">referrals@aon.co.za</a>. GOOD LUCK!
+    </p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     TERMS
+════════════════════════════════════════════════════════ -->
+<section id="terms">
+  <div class="container">
+    <h4>Aon Incentive Program Terms and Conditions</h4>
+    <p>*As with any sales incentive, <a href="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/d4f0917d-6f2c-49bc-8b05-c808ba70c7e0.pdf" target="_blank">terms and conditions apply.</a></p>
+    <p>Aon South Africa (Pty) Ltd ("Aon") has implemented an incentive programme ("Aon Incentive Programme"), to encourage Aon Employees ("you") to submit sales leads to Aon, in order to promote a sales driven culture. A sales lead is the identification data of any person that has or may have an interest in purchasing an insurance product ("Sales Lead"). By participating in the Aon Incentive Programme, you agree to comply with and be bound by the terms and conditions. <a href="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/9f91dd0b-48b0-4595-8340-74ba6fdfde17.pdf" target="_blank">Click here</a> to view the Terms and Conditions.</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════ -->
+<section id="footer">
+  <div class="container">
+
+    <div class="footer-logo-placeholder">Logo</div>
+
+    <div class="footer-links">
+      <a href="https://aon.co.za/legal/legal-documents">Policies</a> |
+      <a href="https://aon.co.za/legal/aon-legal-notice">Legal Notice</a> |
+      <a href="https://aon.co.za/legal/cookies-notice">Cookies</a> |
+      <a href="https://aon.co.za/legal/disclaimer">Disclaimer</a> |
+      <a href="https://aon.co.za/legal/terms-of-business/">Terms of Business</a> |
+      <a href="https://aon.co.za/legal/privacy-statement">Privacy Statement</a> |
+      <a href="https://aon.co.za/legal/privacy-notice" target="_blank">Privacy Notice</a> |
+      <a href="https://aon.co.za/legal/terms-of-use">Terms of Use</a>
+    </div>
+
+    <div class="footer-legal">
+      Terms and conditions apply.<br>
+      Aon South Africa (Pty) Ltd is an Authorised Financial Services Provider (FSP #20555).
+    </div>
+
+  </div>
+</section>
+
+
+<script src="https://image.affinityinsurance.aon.co.za/lib/fe5c15707c6001787311/m/1/jquery-1.11.3.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cloud.affinityinsurance.aon.co.za/nose-for-leads-js-new"></script>
+
+</body>
+</html>
