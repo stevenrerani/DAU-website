@@ -26,6 +26,72 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <style>
+    /* Helvetica Now Text — self-hosted Monotype webfont kit */
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-light.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-light.woff") format("woff");
+      font-weight: 325;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-light-italic.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-light-italic.woff") format("woff");
+      font-weight: 325;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-regular.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-italic.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-italic.woff") format("woff");
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-medium.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-medium.woff") format("woff");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-medium-italic.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-medium-italic.woff") format("woff");
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-bold.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-bold.woff") format("woff");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Helvetica Now Text";
+      src: url("fonts/helvetica-now-text-bold-italic.woff2") format("woff2"),
+           url("fonts/helvetica-now-text-bold-italic.woff") format("woff");
+      font-weight: 700;
+      font-style: italic;
+      font-display: swap;
+    }
+
     :root {
       --red:    #eb0017;
       --dark:   #1a1a1a;
@@ -39,7 +105,7 @@
     *, *::before, *::after { box-sizing: border-box; }
 
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Helvetica Now Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: var(--text);
       font-size: 15px;
       line-height: 1.65;
@@ -74,7 +140,7 @@
 
     .hero-headline {
       font-size: 2.1rem;
-      font-weight: 300;
+      font-weight: 325;
       line-height: 1.2;
       color: var(--dark);
       margin: 0;
