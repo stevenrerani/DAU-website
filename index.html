@@ -137,16 +137,13 @@
       padding-bottom: 48px;
     }
 
-    /* ─── TOP NAV ──────────────────────────────────────── */
-    #topnav {
-      background: #F9FCFC;
-      padding: 20px 0;
-    }
-
-    .nav-logo {
-      display: block;
+    .hero-logo {
+      position: absolute;
+      top: 28px;
+      left: 15px;
       width: 84px;
       height: auto;
+      z-index: 3;
     }
 
     .hero-headline {
@@ -431,6 +428,11 @@
         min-height: 0;
         flex-direction: column;
       }
+      .hero-logo {
+        position: static;
+        align-self: flex-start;
+        margin-top: 28px;
+      }
       .hero-text {
         width: 100%;
         padding-top: 30px;
@@ -465,21 +467,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- ═══════════════════════════════════════════════════════
-     TOP NAV
-════════════════════════════════════════════════════════ -->
-<header id="topnav">
-  <div class="container">
-    <img class="nav-logo" src="images/aon-logo-red.png" alt="Aon">
-  </div>
-</header>
-
-
-<!-- ═══════════════════════════════════════════════════════
      HERO
 ════════════════════════════════════════════════════════ -->
 <section id="hero">
 
   <div class="container hero-container">
+    <img class="hero-logo" src="images/aon-logo-red.png" alt="Aon">
     <div class="hero-text">
       <h1 class="hero-headline">
         <span class="dau-label">DAU:</span> Driving stronger<br>
